@@ -17,6 +17,22 @@ body{
 
 .hero{
     height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image{
+height: auto;
+width: 600px;
+}
+
+.hero-right{
+    border-radius: 25px;
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+    flex: 0 0 auto;
+    overflow: hidden;
 }
 
 .information-container{
@@ -28,11 +44,19 @@ body{
     height: 100px;
 }
 
+.hero-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex : 1;
+}
+
 .header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px 0;
+    padding: 16px 0;
+    box-sizing: border-box;
 }
 
 .links{
